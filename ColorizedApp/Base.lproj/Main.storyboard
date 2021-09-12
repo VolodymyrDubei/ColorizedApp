@@ -24,7 +24,7 @@
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="wvN-Qv-yLj">
-                                <rect key="frame" x="20" y="244" width="381" height="130"/>
+                                <rect key="frame" x="20" y="244" width="378" height="130"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="l3b-gr-q2Z">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="130"/>
@@ -79,22 +79,22 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="a27-p7-Kbu">
-                                        <rect key="frame" x="124" y="0.0" width="257" height="130"/>
+                                        <rect key="frame" x="124" y="0.0" width="254" height="130"/>
                                         <subviews>
                                             <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.20000000000000001" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="3hA-Al-w1L">
-                                                <rect key="frame" x="-2" y="0.0" width="261" height="31"/>
+                                                <rect key="frame" x="-2" y="0.0" width="258" height="31"/>
                                                 <connections>
                                                     <action selector="rgbSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="bf2-9L-UIl"/>
                                                 </connections>
                                             </slider>
                                             <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Atc-DJ-GHb">
-                                                <rect key="frame" x="-2" y="50" width="261" height="31"/>
+                                                <rect key="frame" x="-2" y="50" width="258" height="31"/>
                                                 <connections>
                                                     <action selector="rgbSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="kLn-N0-m4G"/>
                                                 </connections>
                                             </slider>
                                             <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.80000000000000004" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="6tq-Qc-NLK">
-                                                <rect key="frame" x="-2" y="100" width="261" height="31"/>
+                                                <rect key="frame" x="-2" y="100" width="258" height="31"/>
                                                 <connections>
                                                     <action selector="rgbSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="dOY-sf-ChQ"/>
                                                 </connections>
